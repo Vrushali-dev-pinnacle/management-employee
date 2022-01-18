@@ -1,0 +1,50 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+              <div class="text-center">
+                <h1>
+                    Sign Up
+                </h1>
+                <h6>
+                    Manager Resgistration
+                </h6>
+              </div>
+              <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email address</label><sup> *</sup>
+                  <input type="email" formControlName="email" class="form-control" id="email" aria-describedby="emailHelp">
+                  <span class="text-danger" *ngIf="signupForm.controls['email'].dirty && signupForm.hasError('required','email')">Email Id is required.</span>
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Password</label><sup> *</sup>
+                  <input type="password" formControlName="password" class="form-control" id="password">
+                  <span class="text-danger" *ngIf="signupForm.controls['password'].dirty && signupForm.hasError('required','password')">Password is required.</span>
+                </div>
+                <div class="mb-3">
+                    <label for="fname" class="form-label">First Name</label><sup> *</sup>
+                    <input type="text" formControlName="firstName" class="form-control" id="fname" aria-describedby="emailHelp">
+                    <span class="text-danger" *ngIf="signupForm.controls['firstName'].dirty && signupForm.hasError('required','firstName')">First Name is required.</span>
+                  </div>
+                  <div class="mb-3">
+                      <label for="lname" class="form-label">Last Name</label><sup> *</sup>
+                      <input type="text" formControlName="lastName" class="form-control" id="lname" aria-describedby="emailHelp">
+                      <span class="text-danger" *ngIf="signupForm.controls['lastName'].dirty && signupForm.hasError('required','lastName')">Last Name is required.</span>
+                  </div>
+                  <div class="mb-3">
+                      <label for="address" class="form-label">Address</label><sup> *</sup>
+                      <input type="text" formControlName="address" class="form-control" id="address" aria-describedby="emailHelp">
+                      <span class="text-danger" *ngIf="signupForm.controls['address'].dirty && signupForm.hasError('required','address')">Address is required.</span>
+                  </div>
+                  <div class="mb-3">
+                        <label for="birthDate" class="form-label">Birth Date</label><sup> *</sup>
+                        <input type="text" formControlName="birthDate" class="form-control" id="birthDate" aria-describedby="emailHelp">
+                        <span class="text-danger" *ngIf="signupForm.controls['birthDate'].dirty && signupForm.hasError('required','birthDate')">Birth Date is required.</span>
+                  </div> 
+                <button type="submit" class="btn btn-primary" [disabled]="!signupForm.valid" >Sign Up</button>
+              </form>
+              <a routerLink="/login">Already registered? Click to Login!!</a>
+          </div>
+        </div>
+    </div>
+</div>

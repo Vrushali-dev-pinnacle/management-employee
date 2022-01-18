@@ -1,0 +1,82 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "firstName": "andrea",
+      "lastName": "jolie",
+      "address": "USA,new jursey,balinu",
+      "birthDate": "12/09/2020",
+      "mobile": "9876546798",
+      "city": "new jursey"
+    },
+    {
+      "id": 3,
+      "firstName": "Brahm",
+      "lastName": "Hornie",
+      "address": "Europe,Russia,Kaslie,town:411021",
+      "birthDate": "12/12/1999",
+      "mobile": "5434658798",
+      "city": "town"
+    },
+    {
+      "id": 4,
+      "firstName": "Karan",
+      "lastName": "Wahaliya",
+      "address": "India,Maharashtra,Delhi,Kras:411021",
+      "birthDate": "12/12/1898",
+      "mobile": "9876542343",
+      "city": "Kras"
+    }
+  ],
+  "signupUsers": [
+    {
+      "email": "vrushaliajadhav15@gmail.com",
+      "password": "Vrushali@15",
+      "firstName": "Vrushali",
+      "lastName": "jadhav",
+      "address": "Baner",
+      "birthDate": "12/23/12",
+      "id": 1
+    },
+    {
+      "email": "vhgvjh@gmail.com",
+      "password": "Vrushali",
+      "firstName": "jkhj",
+      "lastName": "kjklj",
+      "address": "nbvnbv",
+      "birthDate": "98789798",
+      "id": 2
+    },
+    {
+      "email": "fsdfds@rregre",
+      "password": "1234567",
+      "firstName": "gerg",
+      "lastName": "ergegtg",
+      "address": "dfgerg",
+      "birthDate": "345345",
+      "id": 3
+    },
+    {
+      "email": "abcd",
+      "password": "U2FsdGVkX19tpZ8jBtQf0PBmcGRB0b6s+xt83/9pmag=",
+      "firstName": "gasgh",
+      "lastName": "hjkkj",
+      "address": "super.admin",
+      "birthDate": "234234",
+      "id": 4
+    },
+    {
+      "email": "super.admin",
+      "password": "U2FsdGVkX1+4JAwrexYyhXSI7dT1PpTM+LGvpNkk+pQ=",
+      "firstName": "jhghj",
+      "lastName": "jhghj",
+      "address": "jhkjh",
+      "birthDate": "jhkj",
+      "id": 5
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
